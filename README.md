@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 3D RPG Portfolio
 
-## Getting Started
+This is a fully interactive 3D portfolio built using Next.js, Three.js, and Tailwind CSS. It presents my resume in a gamified, immersive environment that allows users to explore different sections, toggle between day and night modes, and experience subtle audio design throughout.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- First-person camera controls (WASD navigation)
+- Clickable resume sections with expanded descriptions
+- Fully animated RPG-inspired UI
+- Ambient audio with background music and sound effects
+- Dynamic theming: switch between day and night
+- Deployed via Vercel with GitHub integration
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Screenshots
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Night Mode**  
+![Night Mode](https://github.com/user-attachments/assets/7ce29442-1fdc-461c-985f-bc22d2d2c56b)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Day Mode**  
+![Day Mode](https://github.com/user-attachments/assets/237f6783-3e97-44a8-aba7-1b7756fc2aca)
 
-## Learn More
+**Greeting Banner**  
+![Greeting Banner](https://github.com/user-attachments/assets/ece6fd73-05e7-45ca-9002-b03d46b37af0)
 
-To learn more about Next.js, take a look at the following resources:
+**Resume Interaction**  
+![Resume Click](https://github.com/user-attachments/assets/51d0b701-4375-4f28-9a6e-5e86a6af96b2)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Frontend:** Next.js, TypeScript, Tailwind CSS
+- **3D Engine:** Three.js
+- **Audio:** HTML5 Audio API
+- **Deployment:** Vercel
 
-## Deploy on Vercel
+## Note
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This portfolio was designed to break the mold. Traditional resumes are great, but sometimes you want to cast Fireball instead of clicking through a PDF.
